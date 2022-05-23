@@ -1,5 +1,7 @@
 <template>
-  <DashboardPage />
+  <div class="main">
+    <DashboardPage />
+  </div>
 </template>
 
 <script lang="ts">
@@ -13,3 +15,7 @@ export default Vue.extend({
   },
 });
 </script>
+
+<style lang="scss">
+@import './MainLayout.scss';
+</style>

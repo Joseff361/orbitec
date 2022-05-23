@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import DashboardPage from '@/layouts/MainLayout.vue';
+import DashboardPage from '@/layouts/MainLayout';
 
 export default Vue.extend({
   name: 'App',
