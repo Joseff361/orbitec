@@ -1,15 +1,13 @@
 <template>
-  <div id="app">
-    <DashboardPage />
-  </div>
+  <DashboardPage />
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
-import DashboardPage from '@/layouts/MainLayout.vue';
+import DashboardPage from '@/pages/DashboardPage';
 
 export default Vue.extend({
-  name: 'App',
+  name: 'MainLayout',
   components: {
     DashboardPage,
   },
