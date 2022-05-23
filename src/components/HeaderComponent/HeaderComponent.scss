@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  &__searcher {
+    display: flex;
+    justify-content: space-between;
+
+    &__title {
+      color: #6a6969;
+      font-weight: bolder;
+      font-size: 24px;
+    }
+
+    &__input {
+      border: 1px solid #6a6969;
+      padding: 4px 8px;
+      background-color: #fff5f5;
+      transition: 0.3s;
+      font-family: inherit;
+
+      & input {
+        appearance: none;
+        border: none;
+        outline: none;
+        background: none;
+        font-family: inherit;
+        background: url('@/assets/glass.svg') no-repeat scroll 7px 7px;
+        background-position: right;
+        padding-right: 1.3rem;
+      }
+    }
+  }
+
+  &__banner {
+    background-image: url('@/assets/landscape.png');
+    background-position: center;
+    height: 200px;
+    border-radius: 16px;
+    border: 1px solid #3bd5db;
+    box-shadow: var(--shadow);
+    padding: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    transition: 0.3s;
+
+    &__left {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      font-size: 24px;
+
+      & strong {
+        font-size: 50px;
+      }
+    }
+
+    &__right {
+      font-size: 20px;
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 5px;
+      text-align: end;
+    }
+
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+}
