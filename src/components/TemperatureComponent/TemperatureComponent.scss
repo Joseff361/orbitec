@@ -1,0 +1,36 @@
+.temperature {
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: var(--border);
+  padding: 40px;
+  transition: 0.3s;
+
+  display: flex;
+  justify-content: space-between;
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  &__section {
+    color: #6a6969;
+    display: flex;
+    gap: 10px;
+
+    & img {
+      width: 40px;
+    }
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+  }
+
+  &:hover {
+    transform: scale(1.015);
+  }
+}
