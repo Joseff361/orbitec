@@ -1,5 +1,5 @@
 <template>
-  <div class="dashboard">
+  <div class="dashboard animate__animated animate__fadeInUpBig">
     <div class="dashboard__header"><HeaderComponent /></div>
     <div class="dashboard__body">
       <div class="dashboard__left">
