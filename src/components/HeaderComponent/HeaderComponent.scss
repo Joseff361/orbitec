@@ -19,6 +19,7 @@
       background-color: #fff5f5;
       transition: 0.3s;
       font-family: inherit;
+      transition: 0.3s;
 
       & input {
         appearance: none;
@@ -29,6 +30,12 @@
         background: url('@/assets/glass.svg') no-repeat scroll 7px 7px;
         background-position: right;
         padding-right: 1.3rem;
+      }
+
+      &:focus-within {
+        background-color: #c5e5c6;
+        border-radius: 0px 10px 0px 10px;
+        box-shadow: var(--shadow);
       }
     }
   }
