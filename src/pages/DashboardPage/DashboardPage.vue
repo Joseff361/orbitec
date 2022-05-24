@@ -7,7 +7,7 @@
         <div class="dashboard__left__info"><InfoComponent /></div>
       </div>
       <div class="dashboard__right">
-        <ChartComponent />
+        <ClimateComponent />
       </div>
     </div>
   </div>
@@ -16,7 +16,7 @@
 <script lang="ts">
 import Vue from 'vue';
 import HeaderComponent from '@/components/HeaderComponent';
-import ChartComponent from '@/components/ChartComponent';
+import ClimateComponent from '@/components/ClimateComponent';
 import InfoComponent from '@/components/InfoComponent';
 import TemperatureComponent from '@/components/TemperatureComponent';
 
@@ -24,7 +24,7 @@ export default Vue.extend({
   name: 'DashboardPage',
   components: {
     HeaderComponent,
-    ChartComponent,
+    ClimateComponent,
     InfoComponent,
     TemperatureComponent,
   },

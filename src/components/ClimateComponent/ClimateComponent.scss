@@ -1,0 +1,13 @@
+.climate {
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: var(--border);
+  padding: 30px;
+  transition: 0.3s;
+  background-color: #fff;
+  height: 100%;
+
+  &__header {
+    font-weight: bolder;
+  }
+}
