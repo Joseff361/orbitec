@@ -10,4 +10,12 @@
   &__header {
     font-weight: bolder;
   }
+
+  &__footer {
+    margin-top: 30px;
+  }
+
+  &:hover {
+    transform: scale(1.015);
+  }
 }

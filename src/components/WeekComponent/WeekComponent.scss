@@ -1,0 +1,21 @@
+.week {
+  display: flex;
+  justify-content: space-between;
+
+  &__day {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 12px;
+    text-align: center;
+
+    & i {
+      color: #fdaa39;
+    }
+  }
+
+  &__line {
+    width: 1px;
+    border-right: 1px solid black;
+  }
+}
