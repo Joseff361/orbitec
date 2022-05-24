@@ -23,3 +23,9 @@
     transform: scale(1.015);
   }
 }
+
+@media only screen and (max-width: 576px) {
+  .climate {
+    padding: 10px;
+  }
+}

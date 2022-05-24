@@ -12,6 +12,7 @@
   &__column {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 60px;
   }
 
@@ -34,5 +35,25 @@
 
   &:hover {
     transform: scale(1.015);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .temperature {
+    &__section {
+      font-size: 16px;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .temperature {
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+
+    &__column {
+      gap: 20px;
+    }
   }
 }

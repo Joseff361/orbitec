@@ -3,7 +3,7 @@
     <div class="header__searcher">
       <span class="header__searcher__title">Weather</span>
       <span class="header__searcher__input">
-        <input type="text" placeholder="Seach Your City" />
+        <input type="text" placeholder="Search Your City" />
       </span>
     </div>
     <div class="header__banner">

@@ -8,7 +8,7 @@
 
   &__body {
     display: grid;
-    grid-template-columns: 1fr 1.5fr;    
+    grid-template-columns: 1fr 1.5fr;
     grid-gap: 40px;
   }
 
@@ -21,5 +21,33 @@
 
   &__right {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .dashboard {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .dashboard {
+    &__body {
+      grid-template-columns: 1fr 2fr;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .dashboard {
+    &__body {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 40px;
+    }
+
+    &__left {
+      gap: 40px;
+    }
   }
 }
